@@ -17,7 +17,7 @@
 To install via `npm` use:
 `npm i MB-Warband-Parser`
 
-## Basic Usage
+## Node.js Usage
 ```js
 const MBParser = require('MB-Warband-Parser');
 
@@ -26,4 +26,13 @@ let encodeOutput = await Parser.encode(['var1', 'var2', '', ' ', '1', '2', '3'])
 
 // Turn '|' format to Javascript array.
 let decodeOutput = await Parser.decode("var1|var2|| |1|2|3");
+```
+
+## Browser Usage
+```js
+// Turn Javascript array into '|' format.
+MBWarbandParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
+
+// Turn '|' format to Javascript array.
+MBWarbandParser.decode("var1|var2|| |1|2|3");
 ```
