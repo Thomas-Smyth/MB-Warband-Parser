@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Thomas-Smyth/MB-Warband-Parser.git"
   },
   "author": "Thomas Smyth",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Thomas-Smyth/MB-Warband-Parser/issues"
   },
