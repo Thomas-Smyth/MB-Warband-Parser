@@ -1,0 +1,19 @@
+{
+  "name": "mb-warband-parser",
+  "version": "1.0.0",
+  "description": "A Node.JS library to parse Mount and Blade: Warband Web Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/temptest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-Smyth/MB-Warband-Parser.git"
+  },
+  "author": "Thomas Smyth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-Smyth/MB-Warband-Parser/issues"
+  },
+  "homepage": "https://github.com/Thomas-Smyth/MB-Warband-Parser#readme"
+}
