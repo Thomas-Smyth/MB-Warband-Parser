@@ -1,6 +1,6 @@
 {
   "name": "mb-warband-parser",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A Node.JS library to parse Mount and Blade: Warband Web Data",
   "main": "index.js",
   "scripts": {

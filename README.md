@@ -31,8 +31,8 @@ let decodeOutput = await Parser.decode("var1|var2|| |1|2|3");
 ## Browser Usage
 ```js
 // Turn Javascript array into '|' format.
-MBWarbandParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
+let encodeOutput = await MBWarbandParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
 
 // Turn '|' format to Javascript array.
-MBWarbandParser.decode("var1|var2|| |1|2|3");
+let decodeOutput = await MBWarbandParser.decode("var1|var2|| |1|2|3");
 ```
