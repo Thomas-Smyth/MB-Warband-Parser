@@ -22,10 +22,10 @@ To install via `npm` use:
 const MBParser = require('MB-Warband-Parser');
 
 // Turn Javascript array into '|' format.
-let encodeOutput = await Parser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
+let encodeOutput = await MBParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
 
 // Turn '|' format to Javascript array.
-let decodeOutput = await Parser.decode("var1|var2|| |1|2|3");
+let decodeOutput = await MBParser.decode("var1|var2|| |1|2|3");
 ```
 
 ## Browser Usage
