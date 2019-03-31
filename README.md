@@ -17,22 +17,11 @@
 To install via `npm` use:
 `npm i MB-Warband-Parser`
 
-## Node.js Usage
+## Usage
 ```js
-const MBParser = require('MB-Warband-Parser');
+const encode = require('MB-Warband-Parser').encode;
+const decode = require('MB-Warband-Parser').decode;
 
-// Turn Javascript array into '|' format.
-let encodeOutput = await MBParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
-
-// Turn '|' format to Javascript array.
-let decodeOutput = await MBParser.decode("var1|var2|| |1|2|3");
-```
-
-## Browser Usage
-```js
-// Turn Javascript array into '|' format.
-let encodeOutput = await MBWarbandParser.encode(['var1', 'var2', '', ' ', '1', '2', '3']);
-
-// Turn '|' format to Javascript array.
-let decodeOutput = await MBWarbandParser.decode("var1|var2|| |1|2|3");
+let stringFormat = encode(dataArray);
+let arrayFormat = decode(dataString);
 ```
